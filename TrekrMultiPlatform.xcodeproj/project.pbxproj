@@ -23,6 +23,10 @@
 		7F29CD1C27970DA0006CED59 /* LocationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F29CD1A27970DA0006CED59 /* LocationStore.swift */; };
 		7F29CD1E27971087006CED59 /* LocationsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F29CD1D27971087006CED59 /* LocationsList.swift */; };
 		7F29CD1F27971087006CED59 /* LocationsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F29CD1D27971087006CED59 /* LocationsList.swift */; };
+		7F854265279798D500B69EAC /* WorldMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F854264279798D500B69EAC /* WorldMap.swift */; };
+		7F854266279798D500B69EAC /* WorldMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F854264279798D500B69EAC /* WorldMap.swift */; };
+		7F854268279798E500B69EAC /* TipsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F854267279798E500B69EAC /* TipsList.swift */; };
+		7F854269279798E500B69EAC /* TipsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F854267279798E500B69EAC /* TipsList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,8 @@
 		7F29CD1727970842006CED59 /* LocationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetail.swift; sourceTree = "<group>"; };
 		7F29CD1A27970DA0006CED59 /* LocationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationStore.swift; sourceTree = "<group>"; };
 		7F29CD1D27971087006CED59 /* LocationsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsList.swift; sourceTree = "<group>"; };
+		7F854264279798D500B69EAC /* WorldMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldMap.swift; sourceTree = "<group>"; };
+		7F854267279798E500B69EAC /* TipsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,8 @@
 			children = (
 				7F29CD1727970842006CED59 /* LocationDetail.swift */,
 				7F29CD1D27971087006CED59 /* LocationsList.swift */,
+				7F854264279798D500B69EAC /* WorldMap.swift */,
+				7F854267279798E500B69EAC /* TipsList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -217,7 +225,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F29CD1B27970DA0006CED59 /* LocationStore.swift in Sources */,
+				7F854265279798D500B69EAC /* WorldMap.swift in Sources */,
 				7F29CD15279706D0006CED59 /* Location.swift in Sources */,
+				7F854268279798E500B69EAC /* TipsList.swift in Sources */,
 				7F29CD1E27971087006CED59 /* LocationsList.swift in Sources */,
 				7F29CCFE27970468006CED59 /* TrekrMultiPlatformApp.swift in Sources */,
 				7F29CD1827970842006CED59 /* LocationDetail.swift in Sources */,
@@ -229,7 +239,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F29CD1C27970DA0006CED59 /* LocationStore.swift in Sources */,
+				7F854266279798D500B69EAC /* WorldMap.swift in Sources */,
 				7F29CD16279706D0006CED59 /* Location.swift in Sources */,
+				7F854269279798E500B69EAC /* TipsList.swift in Sources */,
 				7F29CD1F27971087006CED59 /* LocationsList.swift in Sources */,
 				7F29CCFF27970468006CED59 /* TrekrMultiPlatformApp.swift in Sources */,
 				7F29CD1927970842006CED59 /* LocationDetail.swift in Sources */,
