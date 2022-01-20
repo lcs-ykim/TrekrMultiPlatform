@@ -25,6 +25,8 @@
 		7F29CD1F27971087006CED59 /* LocationsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F29CD1D27971087006CED59 /* LocationsList.swift */; };
 		7F32679E279863B000D45937 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F32679D279863B000D45937 /* Tip.swift */; };
 		7F32679F279863B000D45937 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F32679D279863B000D45937 /* Tip.swift */; };
+		7F801FBF2799E917009772EC /* TipStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F801FBE2799E917009772EC /* TipStore.swift */; };
+		7F801FC02799E917009772EC /* TipStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F801FBE2799E917009772EC /* TipStore.swift */; };
 		7F854265279798D500B69EAC /* WorldMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F854264279798D500B69EAC /* WorldMap.swift */; };
 		7F854266279798D500B69EAC /* WorldMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F854264279798D500B69EAC /* WorldMap.swift */; };
 		7F854268279798E500B69EAC /* TipsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F854267279798E500B69EAC /* TipsList.swift */; };
@@ -44,6 +46,7 @@
 		7F29CD1A27970DA0006CED59 /* LocationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationStore.swift; sourceTree = "<group>"; };
 		7F29CD1D27971087006CED59 /* LocationsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsList.swift; sourceTree = "<group>"; };
 		7F32679D279863B000D45937 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		7F801FBE2799E917009772EC /* TipStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipStore.swift; sourceTree = "<group>"; };
 		7F854264279798D500B69EAC /* WorldMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldMap.swift; sourceTree = "<group>"; };
 		7F854267279798E500B69EAC /* TipsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,8 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				7F29CCEE27970462006CED59 /* TrekrMultiPlatformApp.swift */,
-				7F3267A027986E7100D45937 /* ViewModel */,
 				7F29CD0D279704B5006CED59 /* Model */,
+				7F3267A027986E7100D45937 /* ViewModel */,
 				7F29CD0C279704AA006CED59 /* Views */,
 				7F29CCF027970468006CED59 /* Assets.xcassets */,
 			);
@@ -118,10 +121,10 @@
 		7F29CD0D279704B5006CED59 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				7F29CD0F27970637006CED59 /* locations.json */,
-				7F29CD0E27970637006CED59 /* tips.json */,
 				7F29CD14279706D0006CED59 /* Location.swift */,
 				7F32679D279863B000D45937 /* Tip.swift */,
+				7F29CD0F27970637006CED59 /* locations.json */,
+				7F29CD0E27970637006CED59 /* tips.json */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -130,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				7F29CD1A27970DA0006CED59 /* LocationStore.swift */,
+				7F801FBE2799E917009772EC /* TipStore.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -238,6 +242,7 @@
 			files = (
 				7F29CD1B27970DA0006CED59 /* LocationStore.swift in Sources */,
 				7F32679E279863B000D45937 /* Tip.swift in Sources */,
+				7F801FBF2799E917009772EC /* TipStore.swift in Sources */,
 				7F854265279798D500B69EAC /* WorldMap.swift in Sources */,
 				7F29CD15279706D0006CED59 /* Location.swift in Sources */,
 				7F854268279798E500B69EAC /* TipsList.swift in Sources */,
@@ -253,6 +258,7 @@
 			files = (
 				7F29CD1C27970DA0006CED59 /* LocationStore.swift in Sources */,
 				7F32679F279863B000D45937 /* Tip.swift in Sources */,
+				7F801FC02799E917009772EC /* TipStore.swift in Sources */,
 				7F854266279798D500B69EAC /* WorldMap.swift in Sources */,
 				7F29CD16279706D0006CED59 /* Location.swift in Sources */,
 				7F854269279798E500B69EAC /* TipsList.swift in Sources */,
